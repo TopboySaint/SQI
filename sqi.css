@@ -724,3 +724,39 @@ body{
     margin-top: 60px;
     border-bottom: 2px solid #D0A73F;
 }
+.newest{
+    padding: 100px;
+    border: 2px solid red;
+    background: #000b3f;
+    transform: translateY(750px);
+}
+.newest h4{
+    color:#fff;
+    font-family: poppins;
+    font-size: 14px;
+    font-weight: 700;
+}
+.newest h2{
+    color:#fff;
+    font-family: poppins;
+    font-size: 56px;
+    font-weight: 700;
+}
+.newest p{
+    color:#fff;
+    font-family: poppins;
+    font-size: 14px;
+    font-weight: 500;
+}
+.newest button{
+    background-color: #00208a;
+    font-size: 14px;
+    font-weight: 600;
+    color:#fff;
+    width: 140px;
+    height: 60px;
+    border: none;
+    border-radius: 50px;
+    font-family: poppins;
+    margin-top: 30px;
+}
