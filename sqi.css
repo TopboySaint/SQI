@@ -726,7 +726,6 @@ body{
 }
 .newest{
     padding: 100px;
-    border: 2px solid red;
     background: #000b3f;
     transform: translateY(750px);
 }
@@ -741,12 +740,14 @@ body{
     font-family: poppins;
     font-size: 56px;
     font-weight: 700;
+    padding-top: 10px;
 }
 .newest p{
     color:#fff;
     font-family: poppins;
     font-size: 14px;
     font-weight: 500;
+    padding-top: 20px;
 }
 .newest button{
     background-color: #00208a;
@@ -759,4 +760,47 @@ body{
     border-radius: 50px;
     font-family: poppins;
     margin-top: 30px;
+}
+.newer{
+    border: 2px solid blue;
+    /* height: 500px; */
+    transform: translateY(750px);
+}
+.smallboss{
+    display: flex;
+}
+.smallnav{
+    border: 2px solid red;
+    width: 50%;
+}
+.smallnav h2{
+    color:#000;
+    font-family: poppins;
+    font-size: 40px;
+    font-weight: 600;
+    padding-left: 100px;
+}
+.smallnav button{
+    background-color: #00208a;
+    font-size: 14px;
+    font-weight: 600;
+    color:#fff;
+    width: 140px;
+    height: 60px;
+    border: none;
+    border-radius: 50px;
+    font-family: poppins;
+    margin-left: 400px;
+    /* margin-top: 30px; */
+}
+.bigboss{
+    gap: 50px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+.biggie{
+    border: 2px solid red;
+    width: 350px;
+    height: 500px;
 }
